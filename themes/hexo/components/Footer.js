@@ -18,11 +18,10 @@ const Footer = ({ title }) => {
     >
       {/* <DarkModeButton/> */}
 
-      <i className='fas fa-copyright' /> {`${copyrightDate}`} <a href={BLOG.LINK} className='underline font-bold  dark:text-gray-300 '>{BLOG.AUTHOR}</a>.<br/>
-
       {BLOG.BEI_AN && <><i className='fas fa-shield-alt' /> <a href='https://beian.miit.gov.cn/' className='mr-2'>{BLOG.BEI_AN}</a><br/></>}
-      <br/>
-        <span className='text-xs '>Powered by <a href='https://hxs.wiki'className='underline dark:text-gray-300'>SingShun {BLOG.VERSION}</a>.</span></span><br/>
+      
+    <br/>
+        <span className='text-xs '>Powered by <a href='https://hxs.wiki'className='underline dark:text-gray-300'>SingShun </a>.</span></span><br/>
 
     </footer>
   )
